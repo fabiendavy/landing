@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 32px;
+  padding: 75px;
+  background-color: #72b5b7;
+  text-align: center;
+}
+
+.footer .list-inline li {
+  display: inline-block;
+}
+
+.footer i {
+  color: #633A82;
+  margin: 0 8px;
+}
+
+.footer p {
+  margin-top: 16px;
+  opacity: 0.7;
+}
+
+

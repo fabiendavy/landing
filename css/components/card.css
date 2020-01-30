@@ -1,0 +1,37 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 50px 0; */
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card .card-description {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+.card .card-description h3 {
+  margin: 24px 0;
+}
+
+.card .card-description p {
+  opacity: 0.5;
+}

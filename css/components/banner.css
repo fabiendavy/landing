@@ -1,0 +1,30 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tri-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 220px;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 32px;
+}
+
+.banner p {
+  margin: 24px 0;
+  opacity: 0.8;
+  font-size: 24px;
+}
+
+.banner a {
+  padding: 16px 40px;
+  border-radius: 50px;
+  color: white;
+  background-color: #40e0d0;
+  transition: 0.5s;
+}
+
+.banner a:hover {
+  background-color: white;
+  color: #40e0d0;
+}
